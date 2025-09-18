@@ -8,7 +8,7 @@ export default function AboutMe() {
       <section id="about" className="mb-16">
         <div className="flex items-center gap-6 mb-12 ">
           <div className="relative">
-              <div className="w-35 h-35 rounded-full overflow-hidden">
+              <div className="w-35 h-35 rounded-full overflow-hidden border-6 border-white shadow-lg">
               <Image
                   src="/profile-photo.jpg"
                   alt="Minh Pham"

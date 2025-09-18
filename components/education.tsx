@@ -47,7 +47,7 @@ export default function Education() {
             <span className="hidden md:block text-sm text-gray-600">Fall 2023 - Spring 2026</span>
           </div>
           <div className="md:hidden text-sm text-gray-600 mb-4">Fall 2023 - Spring 2026</div>
-          <div className="flex gap-4 mb-4 text-medium">
+          <div className="flex flex-col md:flex-row gap-4 mb-4 text-medium">
             <div>
               <span className="font-bold text-black">GPA:</span>
               <span className="text-gray-700"> 3.59</span>
