@@ -76,9 +76,7 @@ export default function AboutMe() {
 
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              I'm a Data Science major with a software development background and a passion for UI/UX design. With
-              experience from two high school internships, I excel in front-end, backend, and mobile technologies, and
-              have successfully led a dev-ops team of six to deliver a mobile app project.
+              I'm a Data Science major with extensive software development experience spanning mobile app development, test automation, and full-stack technologies. With four internship experiences including recent roles as a Software Engineer at Stealth and Mobile Developer at Ticketingbox Inc, I specialize in cross-platform development, automated testing frameworks, and API integration. I have successfully built complete mobile applications from scratch and implemented enterprise-level testing infrastructure.
             </p>
             <p>
               Outside of tech, I'm{' '}

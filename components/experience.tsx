@@ -41,8 +41,7 @@ export default function Experience() {
                 <h3 className="font-semibold text-black text-xl mb-3">Software Engineer Intern @ Stealth</h3>
                 <ul className="space-y-2 text-gray-500 text-sm leading-relaxed">
                   <li>
-                    • Replaced legacy testing infrastructure with Playwright framework, establishing automated E2E
-                    protocols for cross-platform applications
+                    • Piloted Playwright framework implementation for automated E2E testing, establishing protocols for cross-platform applications
                   </li>
                   <li>• Wrote 87 automated tests across mobile/desktop platforms, reducing manual testing overhead</li>
                   <li>
