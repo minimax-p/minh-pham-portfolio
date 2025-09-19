@@ -35,7 +35,7 @@ export default function Footer() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="flex justify-center space-x-4 md:space-x-8 mb-4">
             <a
-                href="/resume_3_8_2025.pdf"
+                href="/resume_18_9_2025.pdf"
                 download="Minh_Pham_Resume.pdf"
                 className="text-black font-extrabold hover:text-gray-600 transition-colors"
             >
