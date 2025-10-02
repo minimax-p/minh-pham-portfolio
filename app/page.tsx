@@ -1,9 +1,9 @@
-import AboutMe from "@/components/about-me"
-import Experience from "@/components/experience"
-import Education from "@/components/education"
-import Skills from "@/components/skills"
-import Footer from "@/components/footer"
-import StickyNav from "@/components/sticky-nav"
+import AboutMe from "@/components/main/about-me"
+import Experience from "@/components/main/experience"
+import Education from "@/components/main/education"
+import Skills from "@/components/main/skills"
+import Footer from "@/components/main/footer"
+import StickyNav from "@/components/main/sticky-nav"
 
 export default function Home() {
   return (

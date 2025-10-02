@@ -15,7 +15,7 @@ export default function GifHover({
                                      children,
                                      gifUrl,
                                      className = "text-blue-500 underline cursor-pointer",
-                                     gifClassName = "w-32 h-24 rounded-lg shadow-lg object-cover",
+                                     gifClassName = "w-32 h-24 rounded-lg object-cover",
                                      offset = { x: 0, y: -20 },
                                      redirectURL = ""
                                  }: GifHoverProps) {
