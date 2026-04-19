@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function Footer() {
   const [emailCopied, setEmailCopied] = useState(false);
 
-  const emailAddress = "mpham@stu.feitian.edu"; // Update with your email
+  const emailAddress = "phamhuunhatminh221b@gmail.com"; // Update with your email
 
   const handleEmailCopy = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
