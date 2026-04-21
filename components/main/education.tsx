@@ -21,16 +21,16 @@ export default function Education() {
       </div>
 
       <div className="space-y-6">
-        {/* Master's Degree */}
-        <div className="bg-gray-200 rounded-lg p-6">
-          <div className="flex justify-between items-start mb-4 text-xl">
-            <h3 className="font-semibold text-gray-500">M.S. in Data Science @ Fei Tian College</h3>
-            <span className="hidden md:block text-sm text-gray-600">Expected Spring 2027 (4+1 Program)</span>
-          </div>
-          <span className="md:hidden text-sm text-gray-600 mb-4">Expected Spring 2027 (4+1 Program)</span>
-          <p className="md:hidden text-gray-600 text-sm">upcoming...</p>
-          <p className="hidden md:block text-center text-gray-600 text-sm">upcoming...</p>
-        </div>
+        {/* Master's Degree NO MORE*/}
+        {/*<div className="bg-gray-200 rounded-lg p-6">*/}
+        {/*  <div className="flex justify-between items-start mb-4 text-xl">*/}
+        {/*    <h3 className="font-semibold text-gray-500">M.S. in Data Science @ Fei Tian College</h3>*/}
+        {/*    <span className="hidden md:block text-sm text-gray-600">Expected Spring 2027 (4+1 Program)</span>*/}
+        {/*  </div>*/}
+        {/*  <span className="md:hidden text-sm text-gray-600 mb-4">Expected Spring 2027 (4+1 Program)</span>*/}
+        {/*  <p className="md:hidden text-gray-600 text-sm">upcoming...</p>*/}
+        {/*  <p className="hidden md:block text-center text-gray-600 text-sm">upcoming...</p>*/}
+        {/*</div>*/}
 
         {/* Bachelor's Degree */}
         <div className="bg-white border border-gray-200 rounded-lg p-6">

@@ -78,13 +78,14 @@ export default function AboutMe() {
                 founder and team captain
               </GifHover>
               {' '}for our college badminton team and enjoy staying active through{' '}
-              <GifHover
-                  // gifUrl="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif"
-                  gifUrl={'/run.gif'}
-                  className="font-semibold text-blue-500 underline cursor-pointer"
-                  redirectURL="https://www.strava.com/athletes/139477115"
-              >running
-              </GifHover>
+              {/* I DONT RUN NO MORE*/}
+              {/*<GifHover*/}
+              {/*    // gifUrl="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif"*/}
+              {/*    gifUrl={'/run.gif'}*/}
+              {/*    className="font-semibold text-blue-500 underline cursor-pointer"*/}
+              {/*    redirectURL="https://www.strava.com/athletes/139477115"*/}
+              {/*>running*/}
+              {/*</GifHover>*/}
               {' '}and the gym. I also play classical guitar
               and clarinet, love karaoke, and am always up for good boba.
             </p>
