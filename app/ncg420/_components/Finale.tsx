@@ -89,7 +89,7 @@ export default function Finale({ onReplay }: FinaleProps) {
             <p className="letter__body">
               Just kidding, hehe. But I think that as we grow as people, we need more challenges to make us into better people. These are opportunities to grow our capacities as people. I hope you do not shy from these challenges. I wish that you do well in all things that you’re already doing now, and more: your two jobs, your schoolwork, and your upcoming internship. And I also wish that you can slow down sometimes to appreciate the little things and the people around you. And finally, I wish you a new year of constant self-discovery, reinvention, and moral progression, even though these things won’t come easy.
             </p>
-            <p className="letter__sig">— with love ❤️</p>
+            <p className="letter__sig">— From Minh, with love ❤️</p>
           </div>
         </div>
 
