@@ -34,7 +34,7 @@ export default function AboutMe() {
           <div>
             <p className="text-black text-xl">Hello, my name is</p>
             <h1 className="text-3xl font-bold text-black mb-1">Minh Pham</h1>
-            <p className="text-black">Data Science Student @ Fei Tian College</p>
+            <p className="text-black">Software Engineer @ Stealth</p>
           </div>
         </div>
 
@@ -60,11 +60,7 @@ export default function AboutMe() {
           </div>
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p>
-              I'm a Data Science major with extensive software development experience spanning mobile app development,
-              test automation, and full-stack technologies. With four internship experiences including recent roles as
-              a Software Engineer at Stealth and Mobile Developer at Ticketingbox Inc, I specialize in cross-platform
-              development, automated testing frameworks, and API integration. I have successfully built complete mobile
-              applications from scratch and implemented enterprise-level testing infrastructure.
+              I'm a Fei Tian College graduate (B.S. Data Science) now working as a Software Engineer at Stealth, with extensive experience spanning mobile app development, test automation, and full-stack technologies. With four internship experiences including recent roles as a Software Engineer at Stealth and Mobile Developer at Ticketingbox Inc, I specialize in cross-platform development, automated testing frameworks, and API integration. I have successfully built complete mobile applications from scratch and implemented enterprise-level testing infrastructure.
             </p>
             <p>
               Outside of tech, I'm{' '}
@@ -86,8 +82,15 @@ export default function AboutMe() {
               {/*    redirectURL="https://www.strava.com/athletes/139477115"*/}
               {/*>running*/}
               {/*</GifHover>*/}
-              {' '}and the gym. I also play classical guitar
-              and clarinet, love karaoke, and am always up for good boba.
+              {' '}and the gym. I also play lead guitar in an indie band
+              <GifHover
+                  gifUrl={'/band.gif'}
+                  className="font-semibold text-blue-500 underline cursor-pointer mx-1"
+                  redirectURL="https://www.instagram.com/your-band-handle"
+              >
+                (check us out!)
+              </GifHover>
+              , play clarinet, and am always up for good boba.
             </p>
 
             {/*FOR FUTURE USE WHEN I DO HAVE A BLOG*/}
