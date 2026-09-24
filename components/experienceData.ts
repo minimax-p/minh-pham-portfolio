@@ -12,6 +12,16 @@ import { ExperienceItem } from './types'
 
 export const experienceData: ExperienceItem[] = [
     {
+        startDate: "Aug 2025",
+        endDate: "Present",
+        title: "Software Engineer",
+        company: "Stealth",
+        companyLink: "",
+        bulletPoints: [
+            "Build and test a locally hosted LLM stack: chatbot and coding agent",
+        ]
+    },
+    {
         startDate: "Jun 2025",
         endDate: "Aug 2025",
         title: "Software Engineer Intern",
