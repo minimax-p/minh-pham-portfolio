@@ -1,5 +1,3 @@
-"use client"
-
 import { ExperienceItemProps } from './types'
 
 export default function ExperienceItem({

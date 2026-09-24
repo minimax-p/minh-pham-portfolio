@@ -1,5 +1,3 @@
-"use client"
-
 import ExperienceItem from '../experience-item'
 import { experienceData } from '../experienceData'
 

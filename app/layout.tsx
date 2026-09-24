@@ -3,7 +3,6 @@ import type { Metadata, Viewport } from "next"
 import { Plus_Jakarta_Sans } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Suspense } from "react"
 import "./globals.css"
 
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -91,22 +90,13 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-      <html lang="en" suppressHydrationWarning>
+      <html lang="en">
       <body
           className={`font-sans antialiased ${plusJakartaSans.variable}`}
-          suppressHydrationWarning
       >
-      <Suspense
-          fallback={
-            <div className="flex items-center justify-center min-h-screen">
-              <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-gray-900"></div>
-            </div>
-          }
-      >
-        {children}
-        <Analytics />
-        <SpeedInsights />
-      </Suspense>
+      {children}
+      <Analytics />
+      <SpeedInsights />
       </body>
       </html>
   )
