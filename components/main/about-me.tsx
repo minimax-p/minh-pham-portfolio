@@ -63,7 +63,7 @@ export default function AboutMe() {
               I'm a Fei Tian College graduate (B.S. Data Science) now working as a Software Engineer at Stealth, with extensive experience spanning mobile app development, test automation, and full-stack technologies. With four internship experiences including recent roles as a Software Engineer at Stealth and Mobile Developer at Ticketingbox Inc, I specialize in cross-platform development, automated testing frameworks, and API integration. I have successfully built complete mobile applications from scratch and implemented enterprise-level testing infrastructure.
             </p>
             <p>
-              Outside of tech, I'm{' '}
+              Outside of tech, I was{' '}
 
               <GifHover
                   // gifUrl="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif"
